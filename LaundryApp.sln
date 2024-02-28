@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{649B2B84
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{43034243-9A6B-4BD6-BC08-161E2D6629BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Entities", "LaundryApp.Entities\LaundryApp.Entities.csproj", "{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryApp.Entities", "LaundryApp.Entities\LaundryApp.Entities.csproj", "{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Data", "LaundryApp.Data\LaundryApp.Data.csproj", "{D0B44C63-94B5-411D-8514-BD77E83CC364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B44C63-94B5-411D-8514-BD77E83CC364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B44C63-94B5-411D-8514-BD77E83CC364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B44C63-94B5-411D-8514-BD77E83CC364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B44C63-94B5-411D-8514-BD77E83CC364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE} = {5198E2E7-C9E7-4046-9B8E-2849FDF6654C}
+		{D0B44C63-94B5-411D-8514-BD77E83CC364} = {5198E2E7-C9E7-4046-9B8E-2849FDF6654C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10EB1208-C767-48CC-BD0E-F44CB87FCED9}
