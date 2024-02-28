@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{5198E2E7-C9E7-4046-9B8E-2849FDF6654C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{649B2B84-37B8-4CDA-9AD8-6E13937B43F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{43034243-9A6B-4BD6-BC08-161E2D6629BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Entities", "LaundryApp.Entities\LaundryApp.Entities.csproj", "{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE} = {5198E2E7-C9E7-4046-9B8E-2849FDF6654C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10EB1208-C767-48CC-BD0E-F44CB87FCED9}
+	EndGlobalSection
+EndGlobal
