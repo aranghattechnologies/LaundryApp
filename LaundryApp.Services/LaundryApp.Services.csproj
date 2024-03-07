@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LaundryApp.Data\LaundryApp.Data.csproj" />
     <ProjectReference Include="..\LaundryApp.Entities\LaundryApp.Entities.csproj" />
   </ItemGroup>

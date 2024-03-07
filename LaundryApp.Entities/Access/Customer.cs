@@ -25,5 +25,7 @@ namespace LaundryApp.Entities
         public string? PasswordResetToken { get; set; }
 
         public DateTime? PasswordTokenExpiry { get; set; }
+
+        public string ProfilePicture { get; set; }
     }
 }

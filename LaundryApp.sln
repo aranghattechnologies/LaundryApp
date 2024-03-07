@@ -11,15 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{43034243-9A6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryApp.Entities", "LaundryApp.Entities\LaundryApp.Entities.csproj", "{22C69E4E-9DA2-4687-8F3A-11D7E351C3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Data", "LaundryApp.Data\LaundryApp.Data.csproj", "{D0B44C63-94B5-411D-8514-BD77E83CC364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryApp.Data", "LaundryApp.Data\LaundryApp.Data.csproj", "{D0B44C63-94B5-411D-8514-BD77E83CC364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Services", "LaundryApp.Services\LaundryApp.Services.csproj", "{D0D58667-42E1-4A69-8202-31B6202CA7DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryApp.Services", "LaundryApp.Services\LaundryApp.Services.csproj", "{D0D58667-42E1-4A69-8202-31B6202CA7DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryServicesTest", "LaundryServicesTest\LaundryServicesTest.csproj", "{1FB8D0E4-0D94-4662-AED7-81B425FD21AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryServicesTest", "LaundryServicesTest\LaundryServicesTest.csproj", "{1FB8D0E4-0D94-4662-AED7-81B425FD21AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{118A9DF8-B4B7-4916-AA98-A43CB113BFB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.laundryapp.com", "api.laundryapp.com\api.laundryapp.com.csproj", "{42AE37AA-C645-41F2-A411-B35DD80FC67D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.laundryapp.com", "api.laundryapp.com\api.laundryapp.com.csproj", "{42AE37AA-C645-41F2-A411-B35DD80FC67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionCreateRequest", "FunctionCreateRequest\FunctionCreateRequest.csproj", "{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionEventGridListner", "FunctionEventGridListner\FunctionEventGridListner.csproj", "{02E70AE9-76F6-40EA-83FB-1EA49664486B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{42AE37AA-C645-41F2-A411-B35DD80FC67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42AE37AA-C645-41F2-A411-B35DD80FC67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42AE37AA-C645-41F2-A411-B35DD80FC67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E70AE9-76F6-40EA-83FB-1EA49664486B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E70AE9-76F6-40EA-83FB-1EA49664486B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E70AE9-76F6-40EA-83FB-1EA49664486B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E70AE9-76F6-40EA-83FB-1EA49664486B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +69,8 @@ Global
 		{D0D58667-42E1-4A69-8202-31B6202CA7DC} = {5198E2E7-C9E7-4046-9B8E-2849FDF6654C}
 		{1FB8D0E4-0D94-4662-AED7-81B425FD21AA} = {649B2B84-37B8-4CDA-9AD8-6E13937B43F5}
 		{42AE37AA-C645-41F2-A411-B35DD80FC67D} = {118A9DF8-B4B7-4916-AA98-A43CB113BFB8}
+		{E30F2BEF-C30A-4CAA-AA63-E2424EC9D485} = {118A9DF8-B4B7-4916-AA98-A43CB113BFB8}
+		{02E70AE9-76F6-40EA-83FB-1EA49664486B} = {118A9DF8-B4B7-4916-AA98-A43CB113BFB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10EB1208-C767-48CC-BD0E-F44CB87FCED9}

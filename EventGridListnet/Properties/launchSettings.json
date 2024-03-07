@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "EventGridListnet": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7024",
+      "launchBrowser": false
+    }
+  }
+}
