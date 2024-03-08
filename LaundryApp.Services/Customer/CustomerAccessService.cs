@@ -15,7 +15,7 @@ namespace LaundryApp.Services
     public class CustomerAccessService : ICustomerAccessService
     {
         private readonly LaundryAppContext context;
-        private const string conStr = "BlobEndpoint=https://artdemostorageaccount.blob.core.windows.net/;QueueEndpoint=https://artdemostorageaccount.queue.core.windows.net/;FileEndpoint=https://artdemostorageaccount.file.core.windows.net/;TableEndpoint=https://artdemostorageaccount.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-03-07T17:24:40Z&st=2024-03-07T09:24:40Z&spr=https,http&sig=ZyktjgflwEcvIlfSjwTr1igwpQTLNOcKC1Z4hZ7sySQ%3D";
+        private const string conStr = "BlobEndpoint=https://artdemostorageaccount.blob.core.windows.net/;QueueEndpoint=https://artdemostorageaccount.queue.core.windows.net/;FileEndpoint=https://artdemostorageaccount.file.core.windows.net/;TableEndpoint=https://artdemostorageaccount.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-03-08T14:04:14Z&st=2024-03-08T06:04:14Z&spr=https,http&sig=ojLrs2tpXdsUkiTBqgpKeebhVBXiPdrmlZvDYFg1egw%3D";
         private BlobContainerClient containerClient;
         public CustomerAccessService(LaundryAppContext context)
         {
